@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Badboons</title>
+<meta name="description" content="Badboons is a multiplayer horror game for Meta Quest. Free in Early Access.">
+<style>
+@font-face { font-family: "Oswald"; src: url("fonts/Oswald.ttf") format("truetype"); font-weight: 200 700; }
+:root { --ink: #e6e2d8; --dim: #a09b8f; --accent: #e8b923; --bg: #141413; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.65 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; }
+.stripe { height: 6px; background: repeating-linear-gradient(135deg, var(--accent) 0 14px, #1b1b1b 14px 28px); }
+.wrap { max-width: 860px; margin: 0 auto; padding: 0 18px; }
+h1 { font: 700 clamp(48px, 9vw, 84px)/1 "Oswald", Impact, sans-serif; text-transform: uppercase; letter-spacing: .03em; margin: 40px 0 12px; }
+h2 { font: 600 1.5rem/1.2 "Oswald", Impact, sans-serif; text-transform: uppercase; letter-spacing: .03em; color: var(--accent); margin: 40px 0 10px; }
+p { margin: 0 0 14px; }
+.lead { font-size: 1.15rem; }
+a { color: #f0c94a; }
+.shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 28px 0 4px; }
+.shots img { width: 100%; height: auto; display: block; border-radius: 6px; }
+table { border-collapse: collapse; width: 100%; }
+td { padding: 8px 10px; border-bottom: 1px solid #2c2b27; vertical-align: top; }
+td:first-child { color: var(--dim); width: 150px; }
+footer { color: var(--dim); font-size: .92rem; padding: 36px 0 50px; }
+@media (max-width: 640px) { .shots { grid-template-columns: 1fr; } td:first-child { width: 110px; } }
+</style>
+</head>
+<body>
+<div class="stripe"></div>
+<div class="wrap">
+<h1>Badboons</h1>
+<p class="lead">A multiplayer horror game for Meta Quest. One player is the monster, and everyone else tries to survive
+  until time runs out. Free in Early Access.</p>
+
+<div class="shots">
+  <img src="img/backrooms_lamp.jpg" alt="The Backrooms map">
+  <img src="img/subject.jpg" alt="A player running in the Backrooms">
+  <img src="img/commissary.jpg" alt="The cosmetics shop">
+</div>
+
+<h2>About the game</h2>
+<p>You move with your arms, the same way as in Gorilla Tag. Each round, one player plays as the monster and the others
+  hide, run and climb to stay alive.</p>
+<p>The first monster is a sand monster. It can grab players and tear them apart, and it can turn into sand to get through
+  small gaps and pipes. The first map is the Backrooms.</p>
+<p>Between rounds there's a hub with a shop, where you can spend Banana Rations (the in-game currency) on cosmetics.</p>
+
+<h2>Early Access</h2>
+<p>Badboons is still being made. More monsters, maps and modes are planned, and the game will change with updates.
+  Feedback and ideas are welcome at <a href="mailto:noice787965@gmail.com">noice787965@gmail.com</a>.</p>
+
+<h2>Details</h2>
+<table>
+  <tr><td>Headsets</td><td>Meta Quest 3 and Quest 3S</td></tr>
+  <tr><td>Price</td><td>Free. Banana Rations packs and a VIP Pack can be bought in the game if you want them.</td></tr>
+  <tr><td>Online</td><td>Private rooms with friends or public rooms, with voice chat</td></tr>
+  <tr><td>Content</td><td>Horror, blood and gore</td></tr>
+</table>
+
+<h2>Support</h2>
+<p>For bugs or help, email <a href="mailto:noice787965@gmail.com">noice787965@gmail.com</a>.</p>
+<p>To report a player, use REPORT on the room terminal's PLAYERS page or the Report button in the Quest menu. You can also
+  email their in-game name, the time, and what happened.</p>
+</div>
+<footer class="wrap">Made by Alan Nordyke &middot; <a href="privacy.html">Privacy policy</a></footer>
+</body>
+</html>
